@@ -1,11 +1,7 @@
 # Upstream changes from _extends are only recognized when modifications are made to this file in the default branch.
 _extends: .github
 repository:
-  name: template
-  description: Template for Terraform Components
+  name: aws-eventbridge
+  description: The `eventbridge` component is a Terraform module that defines a CloudWatch EventBridge rule
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
-
-
-
-
