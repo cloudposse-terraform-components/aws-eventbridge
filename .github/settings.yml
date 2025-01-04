@@ -5,5 +5,3 @@ repository:
   description: The `eventbridge` component is a Terraform module that defines a CloudWatch EventBridge rule
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
-
-
