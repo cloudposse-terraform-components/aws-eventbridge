@@ -5,7 +5,7 @@ locals {
 
 module "cloudwatch_logs" {
   source  = "cloudposse/cloudwatch-logs/aws"
-  version = "0.6.8"
+  version = "0.6.9"
   count   = local.enabled ? 1 : 0
 
   retention_in_days = var.event_log_retention_in_days
