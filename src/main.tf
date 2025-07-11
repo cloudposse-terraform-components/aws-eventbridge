@@ -15,7 +15,7 @@ module "cloudwatch_logs" {
 
 module "cloudwatch_event" {
   source  = "cloudposse/cloudwatch-events/aws"
-  version = "0.9.0"
+  version = "0.9.1"
   count   = local.enabled ? 1 : 0
 
   cloudwatch_event_rule_description = local.description
