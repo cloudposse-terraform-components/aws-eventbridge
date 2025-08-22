@@ -9,7 +9,6 @@ tags:
 
 The `eventbridge` component is a Terraform module that defines a CloudWatch EventBridge rule. The rule is pointed at
 cloudwatch by default.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -43,7 +42,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -108,12 +110,17 @@ components:
 | <a name="output_cloudwatch_event_rule_name"></a> [cloudwatch\_event\_rule\_name](#output\_cloudwatch\_event\_rule\_name) | The name of the CloudWatch Event Rule |
 | <a name="output_cloudwatch_logs_log_group_arn"></a> [cloudwatch\_logs\_log\_group\_arn](#output\_cloudwatch\_logs\_log\_group\_arn) | The ARN of the CloudWatch Log Group |
 | <a name="output_cloudwatch_logs_log_group_name"></a> [cloudwatch\_logs\_log\_group\_name](#output\_cloudwatch\_logs\_log\_group\_name) | The name of the CloudWatch Log Group |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/master/modules/eventbridge) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-eventbridge&utm_content=)
+
